@@ -86,7 +86,7 @@ gulp.task('build:cleanfolder', function (cb) {
 });
 
 gulp.task('deploy', function () {
-  return gulp.src("dist/**/*")
+  return gulp.src("dist/**/*.*")
     .pipe(ghPages());
 });
 
